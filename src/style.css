@@ -4,7 +4,6 @@ body{
 
 
 section {
-    height: 500px;
     background-color:antiquewhite;
     border: solid black 1px;
 }
@@ -42,6 +41,10 @@ li {
 h1 {
     font-size: 90px;
     margin: 0;
+}
+
+h2 {
+    font-size: 50px;
 }
 
 p{
@@ -99,4 +102,11 @@ p{
 .sub-section {
     display:flex;
     justify-content: space-around;
+    padding: 80px;
 }
+
+.headshot {
+    width: 250px;
+    border-radius: 250px;
+}
+
